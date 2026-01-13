@@ -1,0 +1,9 @@
+Total 80 records read from sales_data.txt
+Blank customer IDs found : 2
+Blank Region found : 1
+Record count after Region and CustomerID cleanup : 77
+Record count after UnitPrice cleanup : 73
+
+Total records parsed: 80
+Invalid records removed: 10
+Valid records after cleaning: 70

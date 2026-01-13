@@ -1,0 +1,185 @@
+Available Regions: ['East', 'North', 'South', 'West']
+Transaction Amount Range: 257.0 to 818960.0
+Records after region filter (East): 17
+[
+    [
+        {
+            "TransactionID": "T063",
+            "Date": "2024-12-07",
+            "ProductID": "P110",
+            "ProductName": "Laptop Charger",
+            "Quantity": 6,
+            "UnitPrice": 1916.0,
+            "CustomerID": "C022",
+            "Region": "East"
+        },
+        {
+            "TransactionID": "T050",
+            "Date": "2024-12-02",
+            "ProductID": "P104",
+            "ProductName": "MonitorLED",
+            "Quantity": 10,
+            "UnitPrice": 9997.0,
+            "CustomerID": "C024",
+            "Region": "East"
+        },
+        {
+            "TransactionID": "T015",
+            "Date": "2024-12-30",
+            "ProductID": "P105",
+            "ProductName": "Webcam",
+            "Quantity": 9,
+            "UnitPrice": 2899.0,
+            "CustomerID": "C022",
+            "Region": "East"
+        },
+        {
+            "TransactionID": "T007",
+            "Date": "2024-12-03",
+            "ProductID": "P102",
+            "ProductName": "Mouse",
+            "Quantity": 7,
+            "UnitPrice": 498.0,
+            "CustomerID": "C012",
+            "Region": "East"
+        },
+        {
+            "TransactionID": "T062",
+            "Date": "2024-12-24",
+            "ProductID": "P102",
+            "ProductName": "Mouse",
+            "Quantity": 9,
+            "UnitPrice": 618.0,
+            "CustomerID": "C009",
+            "Region": "East"
+        },
+        {
+            "TransactionID": "T049",
+            "Date": "2024-12-22",
+            "ProductID": "P109",
+            "ProductName": "Wireless MouseGaming",
+            "Quantity": 8,
+            "UnitPrice": 817.0,
+            "CustomerID": "C007",
+            "Region": "East"
+        },
+        {
+            "TransactionID": "T006",
+            "Date": "2024-12-11",
+            "ProductID": "P107",
+            "ProductName": "USB Cable",
+            "Quantity": 5,
+            "UnitPrice": 179.0,
+            "CustomerID": "C007",
+            "Region": "East"
+        },
+        {
+            "TransactionID": "T011",
+            "Date": "2024-12-03",
+            "ProductID": "P105",
+            "ProductName": "Webcam",
+            "Quantity": 4,
+            "UnitPrice": 2413.0,
+            "CustomerID": "C013",
+            "Region": "East"
+        },
+        {
+            "TransactionID": "T033",
+            "Date": "2024-12-30",
+            "ProductID": "P104",
+            "ProductName": "Monitor",
+            "Quantity": 9,
+            "UnitPrice": 14591.0,
+            "CustomerID": "C023",
+            "Region": "East"
+        },
+        {
+            "TransactionID": "T058",
+            "Date": "2024-12-07",
+            "ProductID": "P109",
+            "ProductName": "Wireless MouseGaming",
+            "Quantity": 9,
+            "UnitPrice": 1043.0,
+            "CustomerID": "C005",
+            "Region": "East"
+        },
+        {
+            "TransactionID": "T029",
+            "Date": "2024-12-11",
+            "ProductID": "P110",
+            "ProductName": "Laptop Charger",
+            "Quantity": 8,
+            "UnitPrice": 1539.0,
+            "CustomerID": "C004",
+            "Region": "East"
+        },
+        {
+            "TransactionID": "T070",
+            "Date": "2024-12-07",
+            "ProductID": "P106",
+            "ProductName": "Headphones",
+            "Quantity": 4,
+            "UnitPrice": 6463.0,
+            "CustomerID": "C004",
+            "Region": "East"
+        },
+        {
+            "TransactionID": "T054",
+            "Date": "2024-12-03",
+            "ProductID": "P110",
+            "ProductName": "Laptop Charger65W",
+            "Quantity": 7,
+            "UnitPrice": 2846.0,
+            "CustomerID": "C019",
+            "Region": "East"
+        },
+        {
+            "TransactionID": "T012",
+            "Date": "2024-12-21",
+            "ProductID": "P108",
+            "ProductName": "External Hard Drive",
+            "Quantity": 6,
+            "UnitPrice": 4332.0,
+            "CustomerID": "C012",
+            "Region": "East"
+        },
+        {
+            "TransactionID": "T025",
+            "Date": "2024-12-14",
+            "ProductID": "P105",
+            "ProductName": "Webcam",
+            "Quantity": 3,
+            "UnitPrice": 3858.0,
+            "CustomerID": "C001",
+            "Region": "East"
+        },
+        {
+            "TransactionID": "T016",
+            "Date": "2024-12-08",
+            "ProductID": "P101",
+            "ProductName": "Laptop",
+            "Quantity": 1,
+            "UnitPrice": 65673.0,
+            "CustomerID": "C013",
+            "Region": "East"
+        },
+        {
+            "TransactionID": "T009",
+            "Date": "2024-12-03",
+            "ProductID": "P107",
+            "ProductName": "USB Cable",
+            "Quantity": 9,
+            "UnitPrice": 250.0,
+            "CustomerID": "C027",
+            "Region": "East"
+        }
+    ],
+    7,
+    {
+        "total_input": 77,
+        "invalid": 7,
+        "filtered_by_region": 53,
+        "filtered_by_amount": 0,
+        "final_count": 17
+    }
+]
