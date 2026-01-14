@@ -544,5 +544,5 @@ a = file_handler.parse_transactions(lines)
 
 f= low_performing_products(a)
 #print (f)
-pretty_json = json.dumps(f, indent=4)
-print(pretty_json)
+# pretty_json = json.dumps(f, indent=4)
+# print(pretty_json)
