@@ -2,13 +2,13 @@ import requests
 import json
 import os
 import re
-import file_handler
-import data_processor
+#import utils.file_handler
+#import utils.data_processor
 
 # data['products'] contains list of all products
 # data['total'] gives total count
 
-def fetch_all_products():
+def fetch_all_products(limit=300):
     """ Task 3.1 Fetch all Products
     Fetches all products from DummyJSON API
     Returns: list of product dictionaries
@@ -31,7 +31,7 @@ def fetch_all_products():
     - Return empty list if API fails
     - Print status message (success/failure)
     """
-    params = {'limit': 300}
+    params = {'limit': limit}
     url = 'https://dummyjson.com/products'
     
     try:
@@ -381,29 +381,29 @@ def generate_sales_report(transactions, enriched_transactions, output_file='outp
     print(f"✅ Sales report generated at {output_file}")
 
 
-AllProds = fetch_all_products()
-#print(AllProds)
+# AllProds = fetch_all_products()
+# #print(AllProds)
 
-PrdMaps = create_product_mapping(AllProds)
-#print(PrdMaps)
+# PrdMaps = create_product_mapping(AllProds)
+# #print(PrdMaps)
 
 
-#print('start')
-lines = file_handler.read_sales_data('data/sales_data.txt')
-#print(lines)
+# #print('start')
+# lines = utils.file_handler.read_sales_data('data/sales_data.txt')
+# #print(lines)
 
-trxs = file_handler.parse_transactions(lines)
-#print(trxs)
+# trxs = utils.file_handler.parse_transactions(lines)
+# #print(trxs)
 
-validTs = data_processor.filterValidTransactions (trxs)
+# validTs = utils.data_processor.filterValidTransactions (trxs)
 
-EnRchd = enrich_sales_data (validTs, PrdMaps)
-#print(c) 
-pretty_json = json.dumps(EnRchd, indent=4)
-#print(pretty_json)
+# EnRchd = enrich_sales_data (validTs, PrdMaps)
+# #print(c) 
+# pretty_json = json.dumps(EnRchd, indent=4)
+# #print(pretty_json)
 
-#### Saving enriched data is already being done in Function "enrich_sales_data"
-#####a = save_enriched_data(EnRchd)
+# #### Saving enriched data is already being done in Function "enrich_sales_data"
+# #####a = save_enriched_data(EnRchd)
 
-generate_sales_report ( validTs, EnRchd )
-print("Done with text report")
+# generate_sales_report ( validTs, EnRchd )
+# print("Done with text report")

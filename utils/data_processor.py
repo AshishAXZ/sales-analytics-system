@@ -1,5 +1,5 @@
 
-import file_handler
+#import utils.file_handler
 import json
 
 def filterValidTransactions(transactions):
@@ -516,33 +516,33 @@ def low_performing_products(transactions, threshold=10):
 
 
 import json
-print('start')
-lines = file_handler.read_sales_data('data/sales_data.txt')
-#print(lines)
-a = file_handler.parse_transactions(lines)
-#print(a)
+# print('start')
+# lines = file_handler.read_sales_data('data/sales_data.txt')
+# #print(lines)
+# a = file_handler.parse_transactions(lines)
+# #print(a)
 
-# ========================================
-#totRevenue = calculate_total_revenue(a)
-#print(totRevenue)
-# ========================================
-#b = top_selling_products(a)
-#print (b)
-# ========================================
-# c= customer_analysis(a)
-# #print (c)
-# pretty_json = json.dumps(c, indent=4)
-# print(pretty_json)
-# ========================================
-#d=daily_sales_trend(a)
-#pretty_json = json.dumps(d, indent=4)
-#print(pretty_json)
-# ========================================
+# # ========================================
+# #totRevenue = calculate_total_revenue(a)
+# #print(totRevenue)
+# # ========================================
+# #b = top_selling_products(a)
+# #print (b)
+# # ========================================
+# # c= customer_analysis(a)
+# # #print (c)
+# # pretty_json = json.dumps(c, indent=4)
+# # print(pretty_json)
+# # ========================================
+# #d=daily_sales_trend(a)
+# #pretty_json = json.dumps(d, indent=4)
+# #print(pretty_json)
+# # ========================================
 
-# e=find_peak_sales_day(a)
-# print(e)
+# # e=find_peak_sales_day(a)
+# # print(e)
 
-f= low_performing_products(a)
-#print (f)
-# pretty_json = json.dumps(f, indent=4)
-# print(pretty_json)
+# f= low_performing_products(a)
+# #print (f)
+# # pretty_json = json.dumps(f, indent=4)
+# # print(pretty_json)

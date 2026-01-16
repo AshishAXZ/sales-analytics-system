@@ -1,0 +1,51 @@
+============================================
+           SALES ANALYTICS REPORT
+     Generated: 2026-01-16 13:41:23
+     Records Processed: 3
+============================================
+
+OVERALL SUMMARY
+--------------------------------------------
+Total Revenue:        ₹1,051,972.00
+Total Transactions:   3
+Average Order Value:  ₹350,657.33
+Date Range:           2024-12-01 to 2024-12-17
+
+REGION-WISE PERFORMANCE
+--------------------------------------------
+Region    Sales          % of Total     Tx Count
+North     ₹1,051,972.00 100.00%      3
+
+TOP 5 PRODUCTS
+--------------------------------------------
+Rank  Product             Qty     Revenue
+1     LaptopPremium       12      ₹933,316.00
+2     Laptop              2       ₹118,656.00
+
+TOP 5 CUSTOMERS
+--------------------------------------------
+Rank  Customer    Spent          Orders
+1     C004        ₹818,960.00    1
+2     C008        ₹118,656.00    1
+3     C003        ₹114,356.00    1
+
+DAILY SALES TREND
+--------------------------------------------
+Date        Revenue        Tx    Customers
+2024-12-01  ₹118,656.00    1     1
+2024-12-15  ₹818,960.00    1     1
+2024-12-17  ₹114,356.00    1     1
+
+PRODUCT PERFORMANCE ANALYSIS
+--------------------------------------------
+Best Selling Day: 2024-12-15 (₹818,960.00)
+Low Performing Products:
+  - Laptop
+Average Transaction Value per Region:
+  North: ₹350,657.33
+
+API ENRICHMENT SUMMARY
+--------------------------------------------
+Total Products Enriched: 3
+Success Rate: 100.00%
+Products Not Enriched:

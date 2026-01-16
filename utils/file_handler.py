@@ -280,15 +280,15 @@ def validate_and_filter(transactions, region: Literal['East', 'North', 'South', 
     return filtered_transactions, invalid_count, filter_summary
 
 
-#print('start')
-lines = read_sales_data('data/sales_data.txt')
+# #print('start')
+# lines = read_sales_data('data/sales_data.txt')
 
-a = parse_transactions(lines)
-#print(a)
+# a = parse_transactions(lines)
+# #print(a)
 
-#pretty_json = json.dumps(a, indent=4)
-#print(pretty_json)
+# #pretty_json = json.dumps(a, indent=4)
+# #print(pretty_json)
 
-b = validate_and_filter(a, min_amount=800000 )
-#pretty_json = json.dumps(b, indent=4)
-#print(pretty_json)
+# b = validate_and_filter(a, min_amount=800000 )
+# #pretty_json = json.dumps(b, indent=4)
+# #print(pretty_json)
